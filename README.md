@@ -13,11 +13,7 @@
 ## 项目目录结构
 
     ├─Application (根目录)
-        │  └─Home
-        │      └─View (线上用户访问的.html目录)
-        │         └─index (生成的一个模块）
-        │             ├─index.html (同一模块的模板放在一个模块目录下)
-        │             └─info.html
+        │
         ├─build (打包资源文件目录)
         │  ├─image
         │  ├─javascript
@@ -51,7 +47,7 @@
         │        │     └─index.less(css、less)
         │        └─...
         ├─webpack-config (webpack配置目录)
-        │     ├─base (基础配置)
+        │    ├─base (基础配置)
         │    │
         │    ├─module (模块配置)
         │    │
