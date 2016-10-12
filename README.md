@@ -12,47 +12,47 @@
 
 ## 项目目录结构
 
-├─Application (根目录)
-    │  └─Home
-    │      └─View (线上用户访问的.html目录)
-    │         └─index (生成的一个模块）
-    │             ├─index.html (同一模块的模板放在一个模块目录下)
-    │             └─info.html
-    ├─build (打包资源文件目录)
-    │  ├─image
-    │  ├─javascript
-    │  ├─style
-    │  └─views
-    ├─client (前端开发目录)
-    │    ├─bower (需要依赖的第三方类库或框架和公共图片资源)
-    │    │  ├─image
-    │    │  ├─javascript
-    │    │  └─style
-    │    ├─components (vue公共组件目录)
-    │    │  ├─A
-    │    │  │ ├─A.vue
-    │    │  │
-    │    │  └─B
-    │    │    ├─B.vue
-    │    │
-    │    └─views (一个业务模块,每个业务下可能有多个页面)
-    │        ├─index
-    │        │  ├─home
-    │        │     ├─components(vue组件目录)
-    │        │     ├─image(图片目录)
-    │        │     ├─index.html(页面)
-    │        │     ├─index.js(js代码)
-    │        │     └─index.less(css、less)
-    │        │  ├─404
-    │        │     ├─components(vue组件目录)
-    │        │     ├─image(图片目录)
-    │        │     ├─index.html(页面)
-    │        │     ├─index.js(js代码)
-    │        │     └─index.less(css、less)
-    │        └─...
-    ├─webpack-config (webpack配置目录)
-         ├─base (基础配置)
-    │    │
-    │    ├─module (模块配置)
-    │    │
-    │    └─util (工具方法)
+    ├─Application (根目录)
+        │  └─Home
+        │      └─View (线上用户访问的.html目录)
+        │         └─index (生成的一个模块）
+        │             ├─index.html (同一模块的模板放在一个模块目录下)
+        │             └─info.html
+        ├─build (打包资源文件目录)
+        │  ├─image
+        │  ├─javascript
+        │  ├─style
+        │  └─views
+        ├─client (前端开发目录)
+        │    ├─bower (需要依赖的第三方类库或框架和公共图片资源)
+        │    │  ├─image
+        │    │  ├─javascript
+        │    │  └─style
+        │    ├─components (vue公共组件目录)
+        │    │  ├─A
+        │    │  │ ├─A.vue
+        │    │  │
+        │    │  └─B
+        │    │    ├─B.vue
+        │    │
+        │    └─views (一个业务模块,每个业务下可能有多个页面)
+        │        ├─index
+        │        │  ├─home
+        │        │     ├─components(vue组件目录)
+        │        │     ├─image(图片目录)
+        │        │     ├─index.html(页面)
+        │        │     ├─index.js(js代码)
+        │        │     └─index.less(css、less)
+        │        │  ├─404
+        │        │     ├─components(vue组件目录)
+        │        │     ├─image(图片目录)
+        │        │     ├─index.html(页面)
+        │        │     ├─index.js(js代码)
+        │        │     └─index.less(css、less)
+        │        └─...
+        ├─webpack-config (webpack配置目录)
+        │     ├─base (基础配置)
+        │    │
+        │    ├─module (模块配置)
+        │    │
+        │    └─util (工具方法)
