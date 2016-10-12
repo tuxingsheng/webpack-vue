@@ -1,0 +1,32 @@
+{
+  "config": {},
+  "website": "",
+  "localPort": 8090,
+  "localNodePort": 9090,
+  "bower": {
+    "vue": [
+      "vue"
+    ],
+    "jquery": [
+      "jquery"
+    ]
+  },
+  "commonChunks": [
+    "jquery",
+    "vue"
+  ],
+  "views": [
+    {
+      "name": "home",
+      "style": "views/index/home/index.css",
+      "javascript": "views/index/home/index.js",
+      "filename": "views/index/home/index.html",
+      "template": "views/index/home/index.html",
+      "chunks": [
+        "vue",
+        "jquery",
+        "home"
+      ]
+    }
+  ]
+}
